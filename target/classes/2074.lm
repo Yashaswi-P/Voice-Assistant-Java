@@ -1,0 +1,77 @@
+Language model created by QuickLM on Thu Jun 23 01:03:11 EDT 2022
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 10 words
+
+\data\
+ngram 1=10
+ngram 2=20
+ngram 3=24
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.6812 CHROME -0.2430
+-1.2041 CLOSE -0.2430
+-1.6812 MOODLE -0.2430
+-1.6812 NOTEPAD -0.2430
+-1.2041 OPEN -0.2430
+-1.6812 SPOTIFY -0.2430
+-1.6812 TEAMS -0.2430
+-1.6812 WHATSAPP -0.2430
+
+\2-grams:
+-0.6021 <s> CLOSE 0.0000
+-0.6021 <s> OPEN 0.0000
+-0.3010 CHROME </s> -0.3010
+-1.0792 CLOSE CHROME 0.0000
+-1.0792 CLOSE MOODLE 0.0000
+-1.0792 CLOSE NOTEPAD 0.0000
+-1.0792 CLOSE SPOTIFY 0.0000
+-1.0792 CLOSE TEAMS 0.0000
+-1.0792 CLOSE WHATSAPP 0.0000
+-0.3010 MOODLE </s> -0.3010
+-0.3010 NOTEPAD </s> -0.3010
+-1.0792 OPEN CHROME 0.0000
+-1.0792 OPEN MOODLE 0.0000
+-1.0792 OPEN NOTEPAD 0.0000
+-1.0792 OPEN SPOTIFY 0.0000
+-1.0792 OPEN TEAMS 0.0000
+-1.0792 OPEN WHATSAPP 0.0000
+-0.3010 SPOTIFY </s> -0.3010
+-0.3010 TEAMS </s> -0.3010
+-0.3010 WHATSAPP </s> -0.3010
+
+\3-grams:
+-1.0792 <s> CLOSE CHROME
+-1.0792 <s> CLOSE MOODLE
+-1.0792 <s> CLOSE NOTEPAD
+-1.0792 <s> CLOSE SPOTIFY
+-1.0792 <s> CLOSE TEAMS
+-1.0792 <s> CLOSE WHATSAPP
+-1.0792 <s> OPEN CHROME
+-1.0792 <s> OPEN MOODLE
+-1.0792 <s> OPEN NOTEPAD
+-1.0792 <s> OPEN SPOTIFY
+-1.0792 <s> OPEN TEAMS
+-1.0792 <s> OPEN WHATSAPP
+-0.3010 CLOSE CHROME </s>
+-0.3010 CLOSE MOODLE </s>
+-0.3010 CLOSE NOTEPAD </s>
+-0.3010 CLOSE SPOTIFY </s>
+-0.3010 CLOSE TEAMS </s>
+-0.3010 CLOSE WHATSAPP </s>
+-0.3010 OPEN CHROME </s>
+-0.3010 OPEN MOODLE </s>
+-0.3010 OPEN NOTEPAD </s>
+-0.3010 OPEN SPOTIFY </s>
+-0.3010 OPEN TEAMS </s>
+-0.3010 OPEN WHATSAPP </s>
+
+\end\

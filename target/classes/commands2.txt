@@ -1,0 +1,12 @@
+open chrome
+close chrome
+open notepad
+close notepad
+open whatsapp
+close whatsapp
+open spotify
+close spotify
+open teams
+close teams
+open moodle
+close moodle
